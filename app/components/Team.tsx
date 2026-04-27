@@ -1,6 +1,12 @@
 "use client";
 
 const team = [
+   {
+    name: "Oyinloye Kayode",
+    role: "Chairman",
+    initials: "OK",
+    color: "#0f2d54",
+  },
   {
     name: "Banji Olasehinde",
     role: "Director / Chief Business Officer",
