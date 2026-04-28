@@ -5,19 +5,19 @@ import { ChevronDown, ArrowRight, Award, Users, Briefcase } from "lucide-react";
 
 const slides = [
   {
-    image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1920&q=80",
+    image: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "Building Nigeria's",
     highlight: "Infrastructure",
     subtitle: "Excellence in Civil, Highway, Mechanical, Electrical & Telecommunications Engineering",
   },
   {
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&q=80",
+    image: "https://images.unsplash.com/photo-1630683924997-fe27050a0416?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "Engineering",
     highlight: "World-Class Solutions",
     subtitle: "From roads and bridges to telecom sites and building construction — we deliver it all",
   },
   {
-    image: "https://images.unsplash.com/photo-1590650153855-d9e808231d41?w=1920&q=80",
+    image: "https://images.unsplash.com/photo-1586865638239-e19dca99a4de?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "Quality Construction",
     highlight: "At Every Scale",
     subtitle: "Residential, commercial, industrial — we build with precision, professionalism and integrity",
