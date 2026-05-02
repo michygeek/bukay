@@ -76,19 +76,19 @@ export default function Contact() {
               {
                 icon: MapPin,
                 label: "Head Office",
-                value: "Lagos, Nigeria",
+                value: "4 Thambo Mbeki Close, off Danjuma Street, Asokoro Abuja",
                 sub: "With operations nationwide",
               },
               {
                 icon: Phone,
                 label: "Call Us",
-                value: "+234 (0) — —",
+                value: "+2348108792617 - whatsapp: +23485793075 | +2348033218941",
                 sub: "Monday – Friday, 8am – 6pm",
               },
               {
                 icon: Mail,
                 label: "Email Us",
-                value: "info@bukayglobal.com",
+                value: "bukay.ng@gmail.com",
                 sub: "We respond within 24 hours",
               },
             ].map(({ icon: Icon, label, value, sub }) => (

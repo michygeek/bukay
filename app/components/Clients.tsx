@@ -6,10 +6,13 @@ const clients = [
   "Aitel",
   "ZTE",
   "Providus Bank",
-  "Obafemi Awolowo University",
+  // "Obafemi Awolowo University",
   "Merit Group of Company",
-  "ABUAD",
+  // "ABUAD",
   "Awujoola Investment & Trust",
+  "The Central Bank of Nigeria (CBN)",
+  "Nigerian Shippers Council (NSC)",
+  "The Office of the Administrator, Presidential Amnesty Programme (PAP)",
   "JKN Ltd",
 ];
 

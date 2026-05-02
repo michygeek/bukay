@@ -2,7 +2,7 @@
 
 const team = [
    {
-    name: "Oyinloye Kayode",
+    name: "Kayode Oyinloye",
     role: "Chairman",
     initials: "OK",
     color: "#0f2d54",
@@ -25,60 +25,7 @@ const team = [
     initials: "DA",
     color: "#e8820c",
   },
-  {
-    name: "Engr. Amoda Oguntuyo Fatai",
-    role: "Civil Engineer",
-    initials: "AF",
-    color: "#0f2d54",
-  },
-  {
-    name: "Abaniwo Tega Peter",
-    role: "Electrical Engineer / Executive Technical",
-    initials: "TP",
-    color: "#1b4880",
-  },
-  {
-    name: "Ajibola Gbadebo",
-    role: "Quantity Surveyor",
-    initials: "AG",
-    color: "#e8820c",
-  },
-  {
-    name: "Opadere Ezekiel Segun",
-    role: "Builder",
-    initials: "ES",
-    color: "#0f2d54",
-  },
-  {
-    name: "Engr. Dr. Adefemi Adeodu",
-    role: "Mechanical Engineer",
-    initials: "AA",
-    color: "#1b4880",
-  },
-  {
-    name: "Engr. Sunkanmi Adesanya",
-    role: "Chief Engineer",
-    initials: "SA",
-    color: "#e8820c",
-  },
-  {
-    name: "Builder Taiwo Ola",
-    role: "Builder / Quantity Surveyor",
-    initials: "TO",
-    color: "#0f2d54",
-  },
-  {
-    name: "Morgan Okoh",
-    role: "Accountant",
-    initials: "MO",
-    color: "#1b4880",
-  },
-  {
-    name: "Barr. Segun Owoeye",
-    role: "Legal Adviser",
-    initials: "SW",
-    color: "#e8820c",
-  },
+  
 ];
 
 export default function Team() {

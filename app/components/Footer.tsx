@@ -136,17 +136,17 @@ export default function Footer() {
               <div className="flex items-start gap-3">
                 <MapPin size={14} className="text-[#e8820c] mt-0.5 shrink-0" />
                 <p className="text-white/60 text-xs">
-                  Lagos, Nigeria<br />
+                  4 Thambo Mbeki Close, off Danjuma Street, Asokoro Abuja<br />
                   Operations Nationwide
                 </p>
               </div>
               <div className="flex items-center gap-3">
                 <Phone size={14} className="text-[#e8820c] shrink-0" />
-                <p className="text-white/60 text-xs">+234 (0) — —</p>
+                <p className="text-white/60 text-xs">+2348108792617</p>
               </div>
               <div className="flex items-center gap-3">
                 <Mail size={14} className="text-[#e8820c] shrink-0" />
-                <p className="text-white/60 text-xs">info@bukayglobal.com</p>
+                <p className="text-white/60 text-xs">bukay.ng@gmail.com</p>
               </div>
             </div>
 
