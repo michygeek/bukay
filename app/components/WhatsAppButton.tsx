@@ -1,6 +1,6 @@
 "use client";
 
-const WHATSAPP_NUMBER = "2348000000000"; // TODO: replace with real number
+const WHATSAPP_NUMBER = "+2348085793075"; // TODO: replace with real number
 const MESSAGE = encodeURIComponent(
   "Hello Bukay Global Services, I'd like to enquire about your construction services."
 );
