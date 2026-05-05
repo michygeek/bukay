@@ -15,10 +15,15 @@ export const transporter = nodemailer.createTransport({
     user: process.env.SMTP_USER,
     pass: process.env.SMTP_PASS,
   },
+  logger: true,
+  debug: true,
 });
 
-export const FROM = `"Bukay Global Services" <${process.env.SMTP_USER}>`;
-export const COMPANY_EMAIL = process.env.COMPANY_EMAIL ?? "info@bukayglobal.com";
+export const FROM = process.env.SMTP_FROM ?? `"Bukay Global Services" <onboarding@resend.dev>`;
+export const COMPANY_EMAIL = (process.env.COMPANY_EMAIL ?? "bukay.ng@gmail.com")
+  .split(",")
+  .map((e) => e.trim())
+  .join(", ");
 
 // ─── Shared email wrapper ──────────────────────────────────────────────────────
 
@@ -54,7 +59,8 @@ function emailWrapper(title: string, body: string): string {
         <tr>
           <td style="background:#f8fafc;padding:20px 36px;border-top:1px solid #e8ecf0;">
             <p style="margin:0;font-size:11px;color:#94a3b8;text-align:center;">
-              Bukay Global Services Limited · Lagos, Nigeria · info@bukayglobal.com<br>
+              Bukay Global Services Limited · 4 Thambo Mbeki Close, off Danjuma Street, Asokoro, Abuja<br>
+              +2348108792617 · bukay.ng@gmail.com<br>
               NEMSA Certified — Category A · Cert No. A01175
             </p>
           </td>
@@ -182,7 +188,7 @@ export function contactAutoReplyHtml(d: ContactData): string {
     <p style="margin:0;font-size:13px;color:#94a3b8;">
       Warm regards,<br>
       <strong style="color:#0f2d54;">The Bukay Global Services Team</strong><br>
-      Lagos, Nigeria · info@bukayglobal.com
+      4 Thambo Mbeki Close, Asokoro, Abuja · bukay.ng@gmail.com
     </p>`;
   return emailWrapper("We've Received Your Enquiry", body);
 }

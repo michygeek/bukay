@@ -45,7 +45,7 @@ export default function Contact() {
       setError(
         err instanceof Error
           ? err.message
-          : "Failed to send message. Please try again or email us at info@bukayglobal.com."
+          : "Failed to send message. Please try again or email us at bukay.ng@gmail.com."
       );
     } finally {
       setLoading(false);

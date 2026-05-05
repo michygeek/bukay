@@ -28,6 +28,9 @@ export async function POST(req: NextRequest) {
 
     const data = { name, email, phone, service, message };
 
+    console.log("[/api/contact] FROM:", FROM);
+    console.log("[/api/contact] TO:", COMPANY_EMAIL);
+
     // Send both emails concurrently
     await Promise.all([
       // Notify the company

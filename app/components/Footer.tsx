@@ -44,6 +44,7 @@ export default function Footer() {
                 width={100}
                 height={100}
                 className="object-contain"
+                style={{ height: "auto" }}
               />
               <div>
                 <p className="font-black text-sm leading-tight">BUKAY GLOBAL</p>
